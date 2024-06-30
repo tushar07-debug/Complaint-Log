@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('https://www.ibelievebible.com/content/images/2017/02/Silence.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  padding: 20px;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.alert {
+  background-color: rgba(255, 255, 255, 0.9); 
+  color: #333;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.btn-warning:hover {
+  background-color: #ffca2c;
+}
+
+
+.btn-logout {
+  margin-top: 20px;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-logout:hover {
+  background-color: #c82333;
+}

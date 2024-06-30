@@ -1,0 +1,32 @@
+{
+  "name": "reactweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js",
+    "buildW": "webpack server.js dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/register": "^7.17.7",
+    "ignore-styles": "^5.0.1",
+    "nodemon": "^2.0.7",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
